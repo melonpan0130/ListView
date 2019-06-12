@@ -62,27 +62,27 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(14, 158);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(37, 12);
+            this.lblName.Size = new System.Drawing.Size(39, 12);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "이름 :";
+            this.lblName.Text = "Name";
             // 
             // lblAge
             // 
             this.lblAge.AutoSize = true;
             this.lblAge.Location = new System.Drawing.Point(14, 185);
             this.lblAge.Name = "lblAge";
-            this.lblAge.Size = new System.Drawing.Size(41, 12);
+            this.lblAge.Size = new System.Drawing.Size(27, 12);
             this.lblAge.TabIndex = 2;
-            this.lblAge.Text = "나이 : ";
+            this.lblAge.Text = "Age";
             // 
             // lblWork
             // 
             this.lblWork.AutoSize = true;
             this.lblWork.Location = new System.Drawing.Point(14, 212);
             this.lblWork.Name = "lblWork";
-            this.lblWork.Size = new System.Drawing.Size(37, 12);
+            this.lblWork.Size = new System.Drawing.Size(32, 12);
             this.lblWork.TabIndex = 3;
-            this.lblWork.Text = "직업 :";
+            this.lblWork.Text = "Work";
             // 
             // txtName
             // 
@@ -117,17 +117,17 @@
             // 
             // chName
             // 
-            this.chName.Text = "이름";
+            this.chName.Text = "Name";
             this.chName.Width = 100;
             // 
             // chAge
             // 
-            this.chAge.Text = "나이";
+            this.chAge.Text = "Age";
             this.chAge.Width = 100;
             // 
             // chWork
             // 
-            this.chWork.Text = "직업";
+            this.chWork.Text = "Work";
             this.chWork.Width = 150;
             // 
             // Form1

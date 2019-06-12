@@ -25,7 +25,7 @@ namespace ListView
         {
             if(this.txtName.Text == "" || this.txtAge.Text == "" || this.txtWork.Text == "")
             {
-                MessageBox.Show("Please write in the content", "Warning",
+                MessageBox.Show("Please enter all items.", "Warning",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.txtName.Focus();
                 return false;
