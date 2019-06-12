@@ -55,6 +55,7 @@
             this.lvView.TabIndex = 0;
             this.lvView.UseCompatibleStateImageBehavior = false;
             this.lvView.View = System.Windows.Forms.View.Details;
+            this.lvView.Click += new System.EventHandler(this.LvView_Click);
             // 
             // lblName
             // 
@@ -110,7 +111,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(82, 75);
             this.btnAdd.TabIndex = 7;
-            this.btnAdd.Text = "button1";
+            this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 

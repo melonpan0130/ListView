@@ -47,8 +47,27 @@ namespace ListView
                     );
 
                 this.lvView.Items.Add(lvi);
+                clearTextBox();
+
                 this.txtName.Focus();
             }
+        }
+
+        private void clearTextBox()
+        {
+            this.txtName.Text = "";
+            this.txtAge.Text = "";
+            this.txtWork.Text = "";
+        }
+
+        private void LvView_Click(object sender, EventArgs e)
+        {
+            ListViewItem lvi = this.lvView.SelectedItems[0]; // first item selected
+            string name = lvi.SubItems[0].Text;
+            string age = lvi.SubItems[1].Text;
+            string work = lvi.SubItems[2].Text;
+
+            MessageBox.Show("name : " + name + "\nage : " + age + "\nwork : " + work);
         }
     }
 }
